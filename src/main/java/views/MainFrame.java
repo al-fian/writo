@@ -26,5 +26,7 @@ public class MainFrame extends JFrame {
         add(splitPane, BorderLayout.CENTER);
         add(rightmostPanel, BorderLayout.LINE_END);
         add(statusPanel, BorderLayout.PAGE_END);
+
+        setJMenuBar(new CustomMenuBar());
     }
 }
