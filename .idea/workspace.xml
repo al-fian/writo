@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="add initial panes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/views/CustomSplitPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/views/CustomTree.java" afterDir="false" />
+    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="add custom tree, custom split pane">
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/LeftmostPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/views/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/MainFrame.java" afterDir="false" />
     </list>
@@ -65,12 +63,20 @@
       <option name="project" value="LOCAL" />
       <updated>1670745837788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add custom tree, custom split pane">
+      <created>1670748446040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670748446040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add initial project" />
     <MESSAGE value="add initial panes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial panes" />
+    <MESSAGE value="add custom tree, custom split pane" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom tree, custom split pane" />
   </component>
 </project>

@@ -12,7 +12,7 @@ public class MainFrame extends JFrame {
         CustomTree tree = new CustomTree();
         JPanel documentPanel = new JPanel();
         JPanel statusPanel = new JPanel();
-        JPanel leftmostPanel = new JPanel();
+        LeftmostPanel leftmostPanel = new LeftmostPanel();
         JPanel rightmostPanel = new JPanel();
         CustomSplitPane splitPane = new CustomSplitPane(tree, documentPanel);
 
@@ -22,7 +22,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         toolbarPanel.setBorder(BorderFactory.createLineBorder(Color.BLUE));
-        leftmostPanel.setBorder(BorderFactory.createLineBorder(Color.YELLOW));
+
         rightmostPanel.setBorder(BorderFactory.createLineBorder(Color.GREEN));
         statusPanel.setBorder(BorderFactory.createLineBorder(Color.ORANGE));
 
