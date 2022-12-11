@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="add initial project">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="add initial panes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/CustomSplitPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/CustomTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/views/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +58,19 @@
       <option name="presentableId" value="Default" />
       <updated>1670742097340</updated>
     </task>
+    <task id="LOCAL-00001" summary="add initial panes">
+      <created>1670745837788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670745837788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add initial project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial project" />
+    <MESSAGE value="add initial panes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial panes" />
   </component>
 </project>
