@@ -8,7 +8,7 @@ public class MainFrame extends JFrame {
     public MainFrame() {
         super("Writo App");
 
-        JPanel toolbarPanel = new JPanel();
+        ToolbarPanel toolbarPanel = new ToolbarPanel();
         CustomTree tree = new CustomTree();
         JPanel documentPanel = new JPanel();
         StatusPanel statusPanel = new StatusPanel();
@@ -20,11 +20,6 @@ public class MainFrame extends JFrame {
         setSize(800,600);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        toolbarPanel.setBorder(BorderFactory.createLineBorder(Color.BLUE));
-
-
-
 
         add(toolbarPanel, BorderLayout.PAGE_START);
         add(leftmostPanel, BorderLayout.LINE_START);
