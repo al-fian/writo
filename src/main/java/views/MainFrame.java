@@ -11,9 +11,9 @@ public class MainFrame extends JFrame {
         JPanel toolbarPanel = new JPanel();
         CustomTree tree = new CustomTree();
         JPanel documentPanel = new JPanel();
-        JPanel statusPanel = new JPanel();
+        StatusPanel statusPanel = new StatusPanel();
         LeftmostPanel leftmostPanel = new LeftmostPanel();
-        JPanel rightmostPanel = new JPanel();
+        RightmostPanel rightmostPanel = new RightmostPanel();
         CustomSplitPane splitPane = new CustomSplitPane(tree, documentPanel);
 
         setLayout(new BorderLayout());
@@ -23,8 +23,8 @@ public class MainFrame extends JFrame {
 
         toolbarPanel.setBorder(BorderFactory.createLineBorder(Color.BLUE));
 
-        rightmostPanel.setBorder(BorderFactory.createLineBorder(Color.GREEN));
-        statusPanel.setBorder(BorderFactory.createLineBorder(Color.ORANGE));
+
+
 
         add(toolbarPanel, BorderLayout.PAGE_START);
         add(leftmostPanel, BorderLayout.LINE_START);
