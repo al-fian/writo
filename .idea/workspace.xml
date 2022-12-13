@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="add flatlaf and tabbed pane">
+    <list default="true" id="61926c9f-d606-4181-8b29-2c868436d409" name="Changes" comment="place main code on EDT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
     </list>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670898915745</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="place main code on EDT">
+      <created>1670922702477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670922702477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +142,7 @@
     <MESSAGE value="add toolbar panel" />
     <MESSAGE value="add custom menubar" />
     <MESSAGE value="add flatlaf and tabbed pane" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flatlaf and tabbed pane" />
+    <MESSAGE value="place main code on EDT" />
+    <option name="LAST_COMMIT_MESSAGE" value="place main code on EDT" />
   </component>
 </project>

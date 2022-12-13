@@ -13,13 +13,6 @@ public class App {
             System.err.println( "Failed to initialize LaF" );
         }
 
-        SwingUtilities.invokeLater(App::createAndShowGui);
-    }
-
-    public static void createAndShowGui() {
-        System.out.println("Created GUI on EDT? "+
-                SwingUtilities.isEventDispatchThread());
-
-        new MainFrame();
+        SwingUtilities.invokeLater(MainFrame::new);
     }
 }
