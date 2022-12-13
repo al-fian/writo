@@ -9,12 +9,12 @@ public class MainFrame extends JFrame {
         super("Writo App");
 
         ToolbarPanel toolbarPanel = new ToolbarPanel();
-        CustomTree tree = new CustomTree();
-        JPanel documentPanel = new JPanel();
+        LeftPanel leftPanel = new LeftPanel();
+        RightPanel rightPanel = new RightPanel();
         StatusPanel statusPanel = new StatusPanel();
         LeftmostPanel leftmostPanel = new LeftmostPanel();
         RightmostPanel rightmostPanel = new RightmostPanel();
-        CustomSplitPane splitPane = new CustomSplitPane(tree, documentPanel);
+        CustomSplitPane splitPane = new CustomSplitPane(leftPanel, rightPanel);
 
         setLayout(new BorderLayout());
         setSize(800,600);
